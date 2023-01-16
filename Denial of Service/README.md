@@ -34,7 +34,7 @@ https://target.com/img/vulnerable.jpg?width=99999999999&height=99999999999
 Accept-Encoding: gzip, gzip, deflate, br, br
 ```
 
-## 7. No Rate Limi
+## 7. No Rate Limit
 ```
 Sometimes if you try bug "No rate limit", after a long try it. The server will go down because there is so much requests
 ```

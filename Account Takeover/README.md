@@ -56,4 +56,5 @@
 
 
 ### References: 
-https://reconshell.com/bugbounty-account-takeover-checklist/
+- https://reconshell.com/bugbounty-account-takeover-checklist/
+- https://vijetareigns.medium.com/pre-account-takeover-using-oauth-misconfiguration-ebd32b80f3d3

@@ -46,3 +46,6 @@
 - second-order (broken link hijacking): if you found a broken link in a webpage (https://nonexistentlink.com/app.js) 
   and you can takeover this domain, you can host any malicious javascript file and use it to steal users info or cookies
 ```
+
+### References: 
+https://reconshell.com/bugbounty-account-takeover-checklist/

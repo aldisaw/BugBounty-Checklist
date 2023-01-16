@@ -46,6 +46,14 @@
 - second-order (broken link hijacking): if you found a broken link in a webpage (https://nonexistentlink.com/app.js) 
   and you can takeover this domain, you can host any malicious javascript file and use it to steal users info or cookies
 ```
+## 7. OAuth Misconfiguration
+```
+1) Victim has a account in evil.com
+2) Attacker creates an account on evil.com using OAuth. For example the attacker have a facebook with a registered victim email
+3) Attacker changed his/her email to victim email.
+4) When the victim try to create an account on evil.com, it says the email already exists.
+```
+
 
 ### References: 
 https://reconshell.com/bugbounty-account-takeover-checklist/

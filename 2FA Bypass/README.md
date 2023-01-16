@@ -54,22 +54,22 @@ Request 2 tokens from account A and X. Use the A's token in X's account.
 ```
 Login using OAuth platform (Google, Facebook...) to bypass 2FA.
 ```
-## 10. CSRF/Clickjacking
+## 9. CSRF/Clickjacking
 ```
 Check if there is a CSRF or a Clickjacking vulnerability to disable the 2FA.
 ```
-## 11. Bypass 2FA arbitrary input
+## 10. Bypass 2FA arbitrary input
 ```
 null 
 000000
 0
 ASADSas
 ```
-## 12. Information Disclosure
+## 11. Information Disclosure
 ```
 Check whether 2FA page is disclosing some sensitive info that you didn't know previously (like mobile number).
 ```
-## 13. Bypass using JSON
+## 12. Bypass using JSON
 ```
 {
         "code":[

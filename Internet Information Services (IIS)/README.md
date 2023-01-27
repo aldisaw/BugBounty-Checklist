@@ -21,3 +21,21 @@ More information and techniques to exploit this vulnerability here [https://soro
 
 # IIS Discovery Bruteforce
 Download the list from hacktricks here : https://github.com/aldisaw/BugBounty-Checklist/blob/main/Internet%20Information%20Services%20(IIS)/iisfinal.txt
+
+# Microsoft IIS tilde character “~” Vulnerability/Feature – Short File/Folder Name Disclosure
+You can try to enumerate folders and files inside every discovered folder (even if it's requiring Basic Authentication) using this technique.
+The main limitation of this technique if the server is vulnerable is that it can only find up to the first 6 letters of the name of each file/folder and the first 3 letters of the extension of the files.
+You can use https://github.com/irsdl/IIS-ShortName-Scanner to test for this vulnerability:
+```
+java -jar iis_shortname_scanner.jar 2 20 http://10.13.38.11/dev/dca66d38fd916317687e1390a420c3fc/db/
+```
+
+# ASP.NET Trace.AXD enabled debugging
+ASP.NET include a debugging mode and its file is called trace.axd.
+It keeps a very detailed log of all requests made to an application over a period of time.
+This information includes remote client IP's, session IDs, all request and response cookies, physical paths, source code information, and potentially even usernames and passwords.
+![112974448-2690b000-915b-11eb-896c-f41c27c44286](https://user-images.githubusercontent.com/22369983/215054422-6e02cd8d-a98d-4252-86a6-adda34219e1d.png)
+
+
+## Reference
+https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/iis-internet-information-services

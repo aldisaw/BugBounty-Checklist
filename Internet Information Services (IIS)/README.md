@@ -20,4 +20,4 @@ You can upload .config files and use them to execute code. One way to do it is a
 More information and techniques to exploit this vulnerability here [https://soroush.secproject.com/blog/2014/07/upload-a-web-config-file-for-fun-profit/](https://soroush.secproject.com/blog/2014/07/upload-a-web-config-file-for-fun-profit/)
 
 # IIS Discovery Bruteforce
-Download the list from hacktricks here :
+Download the list from hacktricks here : https://github.com/aldisaw/BugBounty-Checklist/blob/main/Internet%20Information%20Services%20(IIS)/iisfinal.txt
